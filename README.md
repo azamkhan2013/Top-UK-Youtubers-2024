@@ -68,7 +68,7 @@ SELECT channel_name, COUNT(*) AS duplicate_count
 FROM view_uk_youtubers_2024
 GROUP BY channel_name
 HAVING COUNT(*) > 1;
-
+```
 
 ### Key Insights
 - **Total Subscribers:** 1056M
@@ -99,3 +99,4 @@ HAVING COUNT(*) > 1;
 1. **Mark Ronson** - 343,000
 2. **Jessie J** - 110,416.67
 3. **Dua Lipa** - 104,954.95
+
